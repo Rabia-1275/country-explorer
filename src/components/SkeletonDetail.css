@@ -1,0 +1,44 @@
+.skeleton-detail-content {
+  pointer-events: none;
+}
+
+.skeleton-back-btn {
+  width: 80px;
+  height: 24px;
+  margin-bottom: 2rem;
+}
+
+.skeleton-detail-flag {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.skeleton-title-large {
+  height: 2.5rem;
+  width: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton-title-medium {
+  height: 1.5rem;
+  width: 30%;
+  margin-bottom: 1.5rem;
+}
+
+.skeleton-text-line {
+  height: 1.2rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.skeleton-title-small {
+  height: 1.5rem;
+  width: 40%;
+}
+
+.skeleton-border-chip {
+  width: 60px;
+  height: 32px;
+  border-radius: 16px;
+}

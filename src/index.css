@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #fafafa;
+  --text-color: #1a1a1a;
+  --card-bg: white;
+  --header-bg: rgba(255, 255, 255, 0.8);
+  --header-text: #1a1a1a;
+  --nav-link: #4b5563;
+  --nav-link-hover: #1a1a1a;
+  --search-bg: #f3f4f6;
+  --search-input-color: #1a1a1a;
+  --search-btn-bg: #2563eb;
+  --theme-toggle-color: #4b5563;
+}
+
+.dark {
+  --bg-color: #1a1a1a;
+  --text-color: #fafafa;
+  --card-bg: #2d2d2d;
+  --header-bg: rgba(0, 0, 0, 0.8);
+  --header-text: #fafafa;
+  --nav-link: #9ca3af;
+  --nav-link-hover: #fafafa;
+  --search-bg: #374151;
+  --search-input-color: #fafafa;
+  --search-btn-bg: #2563eb;
+  --theme-toggle-color: #fafafa;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
